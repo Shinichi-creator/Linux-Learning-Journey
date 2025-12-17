@@ -1,1 +1,3 @@
-
+$ indicates shell is ready to accept commands from a regular user.
+echo simple command as no or "no" is repeated.
+pwd shows your current location in the directory
