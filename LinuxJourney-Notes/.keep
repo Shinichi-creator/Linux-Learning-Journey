@@ -1,3 +1,9 @@
 $ indicates shell is ready to accept commands from a regular user.
 echo simple command as no or "no" is repeated.
 pwd shows your current location in the directory
+/ is the root and start
+cd is change directory and you have to put a space after cd
+cd . shows current directory ex:(/home/fighterx to /home/fighterx)
+cd .. move back a directory or level up ex:( /home/fighterx/pictures to /home/fighterx)
+cd ~ home folder ex:(/home/fighterx)
+cd - jumps to previous directory ex:( in /home/fighterx use cd /var/log now I am in /var/log use cd- now back to /home/fighterx)
