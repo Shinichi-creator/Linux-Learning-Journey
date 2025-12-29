@@ -7,3 +7,14 @@ cd . shows current directory ex:(/home/fighterx to /home/fighterx)
 cd .. move back a directory or level up ex:( /home/fighterx/pictures to /home/fighterx)
 cd ~ home folder ex:(/home/fighterx)
 cd - jumps to previous directory ex:( in /home/fighterx use cd /var/log now I am in /var/log use cd- now back to /home/fighterx)
+cat shows what is inside of a file ex:(cat hello.txt) opens the file, and if it says hi, I will see hi
+less shows a whole file ex:(less /var/log/auth.log) This will show all the logins and I will look for the /failed
+Difference from cat and less is cat prints everything at once with no scroll control bad for large files V.S. less shows page by page will full scrolling and is perfect for large files
+less navigation ex:( up/down arrow-line by line) ex:(space-next page) ex(b-back one page)
+history shows Linux terminal pass input/history ex:(!! do last command) ex:(ctrl r allows you to search for a command in history) ex:(clear/history -c commands does clear all history)
+cp copies files and directories
+cp * Matches any sequence of characters ex:(cp *.jpg /home/pete/Pictures) copies all .jpg to pictures
+cp ? Matches any single character
+[] Matches any one of the characters enclosed in the brackets
+cp -r To copy a directory and all of its contents, including subdirectories ex:(cp -r Pumpkin/ /home/pete/Documents) copies the Pumpkin directory and everything inside it to your documents directory
+cp -p ensures that the copy is a replica, not just in content but also in its metadata ex:(copying everything, including timestamp, is perfect for a backup)
